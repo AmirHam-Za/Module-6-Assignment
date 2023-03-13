@@ -1,0 +1,23 @@
+
+<?php
+
+
+?>
+
+  <form method="post" action="process.php" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" required><br><br>
+
+    <label for="profile-picture">Profile Picture:</label>
+    <input type="file" name="profile-picture" accept="image/*" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
